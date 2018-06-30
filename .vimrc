@@ -18,6 +18,9 @@ map #< :se paste<CR>
 map #> :se nopaste<CR>
 set background=dark
 
+set wildignore+=*.class
+set wildmenu
+set wildmode=longest,list
 au! BufRead,BufNewFIle *.prejava set filetype=java
 
 "STUPID FUCKING THING
